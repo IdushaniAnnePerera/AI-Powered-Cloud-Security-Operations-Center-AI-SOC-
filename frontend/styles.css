@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: #238636;
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 220px));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#findings li {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  list-style: none;
+}
